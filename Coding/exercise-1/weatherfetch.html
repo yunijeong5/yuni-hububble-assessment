@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>WeatherFetch</title>
+		<link rel="stylesheet" href="style.css" />
+	</head>
+	<body>
+		<h1>WeatherFetch App</h1>
+		<form id="weatherForm">
+			<label for="locationInput"
+				>Enter Location (City or ZIP code):</label
+			>
+			<input type="text" id="locationInput" name="location" />
+			<button type="submit">Get Weather</button>
+		</form>
+		<div id="weatherInfo"></div>
+
+		<script type="module" src="weatherfetch.js"></script>
+	</body>
+</html>
